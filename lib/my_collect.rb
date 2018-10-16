@@ -16,7 +16,7 @@ collection = []
 
 my_collect(collection) do |x|
   x
-  return collection
+  return "#{collection}"
 end
     
     
