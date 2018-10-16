@@ -12,6 +12,8 @@ def my_collect(array)
     
 end
 
+collection = []
+
 my_collect(collection) do |x|
   x
   return collection
