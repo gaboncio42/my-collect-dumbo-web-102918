@@ -7,6 +7,9 @@ def my_collect(array)
     yield(array[i])
     counter += 1
     
+    array
+    end
+    
     
     
 
