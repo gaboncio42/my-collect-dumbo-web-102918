@@ -15,6 +15,8 @@ end
 my_collect([]) do |x|
   x
 end
+return []
+end
     
     
     
