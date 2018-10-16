@@ -1,10 +1,11 @@
 def my_collect(array)
   if block_given?
     i = 0
+    collection = []
   end
     
     while i < array.length
-    yield(array[i])
+    collectionyield(array[i])
     i += 1
     
     array
@@ -12,7 +13,7 @@ def my_collect(array)
     
 end
 
-collection = []
+
 
 my_collect(collection) do |x|
   x
