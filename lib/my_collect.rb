@@ -14,8 +14,7 @@ end
 
 my_collect(array) do |x|
   x
-end
-return array
+  return array
 end
     
     
