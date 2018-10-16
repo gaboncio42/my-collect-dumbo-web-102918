@@ -7,17 +7,14 @@ def my_collect(array)
     while i < array.length
     collection << yield(array[i])
     i += 1
-    
-    array
     end
-    
+    collection
 end
 
 
 
 my_collect(collection) do |x|
   x
-  return "#{collection}"
 end
     
     
