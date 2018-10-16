@@ -5,7 +5,7 @@ def my_collect(array)
   end
     
     while i < array.length
-    collectionyield(array[i])
+    collection << yield(array[i])
     i += 1
     
     array
