@@ -13,7 +13,7 @@ end
 
 
 
-my_collect(collection) do |x|
+my_collect do |x|
   x
 end
     
