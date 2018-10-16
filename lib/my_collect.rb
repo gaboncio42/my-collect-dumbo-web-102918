@@ -12,9 +12,9 @@ def my_collect(array)
     
 end
 
-my_collect([]) do |x|
+my_collect(collection) do |x|
   x
-  return []
+  return collection
 end
     
     
